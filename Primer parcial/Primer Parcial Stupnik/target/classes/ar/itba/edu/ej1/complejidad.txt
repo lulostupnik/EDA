@@ -1,0 +1,54 @@
+private  Lista[] randomSplitListas( Integer nLists ) {
+       if(nLists < 1){
+           throw new RuntimeException("No se puede separar en menos de una lista");
+       }
+
+       Lista[] ans = new Lista[nLists];
+       for(int i=0; i<nLists ; i++){
+            ans[i] = new Lista();
+        }
+
+        Item current = first;
+        while(current != null){
+            Lista aux = ans[getRandom(nLists)];
+
+            if(aux.last != null){
+                aux.last.next = current;
+                aux.last = current;
+            }else{
+                aux.first = current;
+                aux.last = current;
+            }
+            Item aux2 = current;
+            current = current.next;
+            aux2.next=null;
+        }
+        last=null;
+        first=null;
+        //Elimino la lista
+
+
+        return ans;
+    }
+
+
+   Para la complejidad espacial:
+
+   1 puntero para el array (linea 6)
+   Se crean N listas en el for de la linea 7
+   1 puntero para current (linea 11)
+   1 puntero para aux (linea 13)
+
+   Los elementos que van en la lista ya estaban alocados
+
+   En total se aloca N+3 espacios --> La complejidad espacial es S(N)
+
+   Para la complejidad temporal:
+   El for de la linea 7 hace 1 comparacion y una suma en cada iteracion --> Hay 2nList + 1 operaciones
+   (El +1 es por la ultima comparacion)
+
+   Luego, el while se ejecuta a lo largo de toda la lista. Dentro del while, se hace 1 comparacion en el if. Viendo la implementacion de getRandom(nList), este llama a nextInt, la cual tiene complejidad  O(1).
+   Si M es el tamaño de la lista, entonces el while tiene M operaciones
+
+   Luego Times = M + 2nList + 1
+   Entonces la complejidad espacial es O(M+n). Si siempre se toma un numero chico comparado al tamano de la lista a la cantidad de listas en donde se separa, se puede tomar O(M)

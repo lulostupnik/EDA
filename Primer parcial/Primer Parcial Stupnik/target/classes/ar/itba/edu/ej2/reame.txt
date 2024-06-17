@@ -1,0 +1,1 @@
+ El testeo esta en la carpeta PrimerParcial/src/main/test/java/ar.itba.edu.ej2
