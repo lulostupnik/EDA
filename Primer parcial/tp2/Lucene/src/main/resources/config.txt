@@ -1,0 +1,1 @@
+prefixDir=C:/Users/lulos/Desktop/EDA/tp2/Lucene_out
