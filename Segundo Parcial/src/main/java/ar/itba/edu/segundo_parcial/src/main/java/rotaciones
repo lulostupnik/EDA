@@ -1,0 +1,12 @@
+Caso 1- Inserto a izquierda de mi hijo izquierdo(siendo yo el que pierde el fb):
+    rotacion simple a derecha
+Caso 2- Inserto a derecha de mi hijo izquierdo:
+    rotacion doble.
+                -Primera con pivote en mi hijo y roto simple a izquierda
+                -Segunda con pivote en mi y roto simple a derecha
+Caso 3- Inserto a derecha de mi hijo derecho:
+    rotacion simple a izquierda
+Caso 4- Inserto a izquierda de mi hijo derecho:
+    rotacion doble.
+                -Primera con pivote en mi hijo y roto simple a derecha
+                -Segunda con pivote en mi y roto simple a izquierda

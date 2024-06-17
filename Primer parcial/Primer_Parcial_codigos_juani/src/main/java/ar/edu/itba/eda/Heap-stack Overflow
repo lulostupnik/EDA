@@ -1,0 +1,5 @@
+SI queremos ver el heap overflow java   -Xms512m -Xmx12G  -jar  HeapOverflow.jar
+Si queremos ver el stack overflow java   -Xss10k  -jar  StackOverflow.jar
+
+add vm options
+vm options: -Xms512m -Xmx12G

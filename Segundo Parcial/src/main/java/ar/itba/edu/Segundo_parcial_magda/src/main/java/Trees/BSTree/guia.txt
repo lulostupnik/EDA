@@ -1,0 +1,81 @@
+Borrado en BST:
+R1: Si el nodo a eliminar es hoja, actualizar quien lo apunta a él
+    (puntero a raíz o su antecesor inmediato) para que ya no lo
+    apunte más a él a ély pase a apuntar a NULL.
+R2: Si el nodo a eliminar tiene un solo hijo, actualizar quien lo
+    apunta a él (puntero a raíz o su antecesor inmediato) para que
+    en vez de apuntarlo a él lo haga al hijo del que se borra.
+R3: Si el nodo a eliminar tiene dos hijos se procede en dos pasos:
+    primero se lo reemplaza por un nodo lexicográficamente adyacente
+    (su predecesor inorder o su sucesor inorder) y finalmente se borra
+    al nodo que lo reemplazó (seguro que dicho nodo tiene a lo sumo
+    un solo hijo, sino no sería el lexicográficamente adyacente, y
+    por lo tanto es fácil de borrar).
+
+Ejercicio 1: Mostrar gráficamente, paso a paso, cómo quedaría
+             la inserción en un BST si los datos se insertan
+             en el siguiente orden:
+             50 - 60 - 80 - 20 - 70 - 40 - 44 - 10 - 40
+
+Solución:
+50 -> 50  ->  50    ->   50    ->   50
+        \       \       /  \       /  \
+         60      60    20  60     20  60
+                   \         \       /  \
+                    80       80     70  80
+
+-> 50      ->      50      ->      50      ->     50
+   /  \           /  \            /  \           /  \
+ 20   60        20    60        20    60       20    60
+  \  /  \        \   /  \      /  \  /  \     /  \  /  \
+  40 70 80       40 70  80    10 40  70 80   10 40  70 80
+                  \               \             / \
+                   44              44         40   44
+
+Ejercicio 6: A partir del siguiente BST, mostrar gráficamente
+             cómo queda paso a paso el BST luego de aplicar
+             las siguientes operaciones de borrado y qué reglas
+             se usaron. Usar predecesor inorder:
+             40, 35 y 8 (en ese orden).
+
+       35
+     /    \
+    20    40
+   /  \     \
+  15  22    74
+ /      \   /
+8       27 55
+       /
+      25
+-> borro el 40 (como tiene un hijo, R2)
+       35
+     /    \
+    20    74
+   /  \   /
+  15  22 55
+ /      \
+8       27
+       /
+      25
+-> borro el 35 (como tiene dos hijos, R3)
+-> reemplazo el 35 por su sucesor inorder (55)
+        55
+      /    \
+     20    74
+    /  \
+   15  22
+  /      \
+ 8       27
+        /
+       25
+-> borro el 8 (como no tiene hijos, R1)
+        55
+      /    \
+     20    74
+    /  \
+   15  22
+         \
+         27
+        /
+       25
+

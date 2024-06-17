@@ -1,0 +1,5 @@
+ falta lo de las presentaciones 17B y 18A
+ que CREO  que corresponden al proyecto BinaryTree
+ (si no es así debe ser a ExpressionTree)
+
+El BST de BST_FX es lo mismo que BST, pero sin algunas cosas como el borrado, el iterador, ....

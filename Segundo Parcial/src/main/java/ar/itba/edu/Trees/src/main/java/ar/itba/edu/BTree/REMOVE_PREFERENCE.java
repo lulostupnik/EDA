@@ -1,0 +1,5 @@
+package ar.itba.edu.BTree;
+
+enum REMOVE_PREFERENCE {
+    LEFT_BROTHER_HIGHEST_LEXI, RIGHT_BROTHER_LOWEST_LEXI;
+}

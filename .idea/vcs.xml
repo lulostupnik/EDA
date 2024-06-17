@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EDA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/2022_2c/ej1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/2023/ej1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/2023/ej2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/parcial_sin_fecha_1/MinPathFinder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/parcial_sin_fecha_1/ej2_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/Primer Parcial Stupnik" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/tp2/BinarySearch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/tp2/KMP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/tp2/Leven" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/tp2/Lucene" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/tp3/IndexService" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Primer parcial/tp3/quicksort_" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Segundo Parcial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Segundo Parcial/src/main/java/ar/itba/edu/BSTFX_" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Segundo Parcial/src/main/java/ar/itba/edu/Grafos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Segundo Parcial/src/main/java/ar/itba/edu/Parciales_Viejos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Segundo Parcial/src/main/java/ar/itba/edu/Trees" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Segundo Parcial/target/classes/ar/itba/edu/BSTFX_" vcs="Git" />
+  </component>
+</project>

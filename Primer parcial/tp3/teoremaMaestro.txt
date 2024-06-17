@@ -1,0 +1,25 @@
+Teorema Maestro
+
+Si una fórmula recurrente puede expresarse así:
+
+T(N) = a * T(N/b) + c* (N^d)
+
+donde:
+
+N es el tamaño de entrada del problema
+a perteneciente a N mayores o iguales a 1 (¿Cuántas invocaciones recursivas se realiza ese paso?)
+b perteneciente a N>1 (Mide tasa en que se reduce el tamaño del input)
+c perteneciente a R>0
+d perteneciente a R>=0
+
+Entonces la complejidad O grande está dada por los
+siguientes 3 casos (c no cuenta):
+Si a< b^d entonces el algoritmo es O(N^d).
+Si a= b^d  ba entonces el algoritmo es O((N^d)*log N).
+Si a> b^d  entonces el algoritmo es O(N ^ logb(a)).
+
+
+
+
+Sean T(N) y G(N) funciones con N>0
+Se dice que T(n) es O(g(n)) si y solo si existe c > 0 (cte no dep de N) y existe n0 > 0 tal que para todo N >= n0, se cumple que 0<= T(n) <= g(N)*c

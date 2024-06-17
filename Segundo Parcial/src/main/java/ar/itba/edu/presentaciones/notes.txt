@@ -1,0 +1,10 @@
+27
+3
+
+
+ver codigos de AVL, 
+
+ver Red-Black-Tree (no entra en el segundo parcial, definicion y borrado para el final)
+
+
+Cambiar linea 200 de b-tree descargado de java para usar el otro lexicografico
