@@ -2,9 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/EDA" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/2022_2c/ej1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/2023/ej1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/2023/ej2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/parcial_sin_fecha_1/MinPathFinder" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Primer parcial/Parciales Viejos/Primer Parcial/parcial_sin_fecha_1/ej2_2" vcs="Git" />

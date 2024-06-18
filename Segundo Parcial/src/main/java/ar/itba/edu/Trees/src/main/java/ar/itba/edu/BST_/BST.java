@@ -1,9 +1,11 @@
 package ar.itba.edu.BST_;// QUEDÉ EN EL SLIDE 18 DE LA PPT 19B
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
+
+/*
+*   El borrado es con el predecesor lexicografico, es decir, el mas grande se su subarbol izquierdo
+ */
+
 
 public class BST<T extends Comparable<? super T>> implements BSTreeInterface<T> {
 
@@ -90,6 +92,21 @@ public class BST<T extends Comparable<? super T>> implements BSTreeInterface<T> 
             preOrder(root.right);
         }
     }
+
+/////////////////////////////////////////////////////////////////
+    private void getPreorder(Node<T> root, List<T> list){
+        if (root != null) {
+            list.add(root.data);
+            getPreorder(root.left, list);
+            getPreorder(root.right, list);
+        }
+    }
+    public List<T> getPreorder(){
+        List<T> list = new ArrayList<>();
+        getPreorder(root,list);
+        return list;
+    }
+    ///////////////////////////////////////////////////////////
 
     /**
      * Print the tree in pre-order
@@ -234,6 +251,10 @@ public class BST<T extends Comparable<? super T>> implements BSTreeInterface<T> 
         throw new RuntimeException("Invalid traversal parameter");
     }
 
+
+
+
+    
     private static class Node<T extends Comparable<? super T>> implements NodeTreeInterface<T> {
         private T data;
         private Node<T> left;
@@ -294,6 +315,7 @@ public class BST<T extends Comparable<? super T>> implements BSTreeInterface<T> 
             return this;
         }
 
+
         private T lexiAdjacent(Node<T> node) {
             Node<T> aux = node;
             while (aux.right != null)
@@ -316,6 +338,8 @@ public class BST<T extends Comparable<? super T>> implements BSTreeInterface<T> 
             return right;
         }
 
+
+    
     }
 
 
@@ -351,6 +375,7 @@ public class BST<T extends Comparable<? super T>> implements BSTreeInterface<T> 
         }
     }
 
+
     class BSTInOrderIterator implements Iterator<T> {
         private Stack<NodeTreeInterface<T>> stack;
         NodeTreeInterface current;
@@ -375,7 +400,6 @@ public class BST<T extends Comparable<? super T>> implements BSTreeInterface<T> 
             current = elementToProcess.getRight();
             return elementToProcess.getData();
         }
-
 
     }
 }

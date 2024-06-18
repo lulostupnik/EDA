@@ -1,0 +1,20 @@
+package core.Q1_2023.ej2;
+
+
+
+public class EmptyEdgeProp {
+
+	@Override
+	public boolean equals(Object obj) {
+		if (obj == null ||  ! (obj instanceof EmptyEdgeProp) )
+			return false;
+		
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "[]";
+	}
+
+}

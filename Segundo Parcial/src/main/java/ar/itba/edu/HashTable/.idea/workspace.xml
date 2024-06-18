@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ecebaf41-a9ce-44cf-84e6-76a1f99ad14e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Parciales_Viejos/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grafos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Grafos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grafos/src/main/java/core/AdjacencyListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Grafos/src/main/java/core/AdjacencyListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Parciales_Viejos/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Parciales_Viejos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Parciales_Viejos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/AdjacencyListGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/GraphFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/GraphService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/Multi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/Quadtree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST$BSTInOrderIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST$BSTInOrderIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST$BTSByLevelIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST$BTSByLevelIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/BST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BST_/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BTree/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/out/production/Trees/ar/itba/edu/BTree/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/src/main/java/ar/itba/edu/BST_/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/src/main/java/ar/itba/edu/BST_/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/src/main/java/ar/itba/edu/BST_/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/src/main/java/ar/itba/edu/BST_/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../segundo_parcial/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2i3hq8ZqohlCmnldFrHJRnWRR94" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/lulos/Desktop/EDA/Segundo Parcial/src/main/java/ar/itba/edu/HashTable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecebaf41-a9ce-44cf-84e6-76a1f99ad14e" name="Changes" comment="" />
+      <created>1718725355554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718725355554</updated>
+      <workItem from="1718725356564" duration="131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

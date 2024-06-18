@@ -45,7 +45,6 @@ abstract public class AdjacencyListGraph<V, E> implements GraphService<V, E> {
 
     @Override
     public void addVertex(V aVertex) {
-
         if (aVertex == null)
             throw new IllegalArgumentException(Messages.getString("addVertexParamCannotBeNull"));
 
