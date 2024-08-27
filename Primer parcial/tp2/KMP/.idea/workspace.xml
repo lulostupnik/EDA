@@ -3,19 +3,71 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="23304170-e6dd-443f-947f-97489b3568c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/Trees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/Trees/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/Trees/out/production/Trees/ar/itba/edu/BTree/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/Trees/out/production/Trees/ar/itba/edu/BTree/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/Trees/src/main/java/ar/itba/edu/BTree/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/Trees/src/main/java/ar/itba/edu/BTree/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/presentaciones/Clase14_15.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/presentaciones/Clase14_15.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/presentaciones/~$20-A .pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/AVL/AVL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/AVL/AVLTreeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/BST/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/BST/BSTreeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/BST/NodeTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/BST/NodeTreeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/BinaryTree/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/BinaryTree/BinaryTreeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/BinaryTree/ParametrizedBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/BinaryTree/ParametrizedBinaryTreeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/ClosedHashing/ClosedHashing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/ClosedHashing/IndexParametricService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/ExpTree/ExpTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/ExpTree/ExpressionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/ExpTree/IncorrectParenthesisException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/ExpTree/OperandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Grafos/core/AdjacencyListGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Grafos/core/GraphFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Grafos/core/Messages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Grafos/core/Multi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Grafos/core/SimpleOrDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Grafos/core_service/GraphBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Grafos/core_service/GraphService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Grafos/use/EmptyEdgeProp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Grafos/use/WeightedEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/OpenHashing/OpenHashing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/AdjacencyListGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/EmptyEdgeProp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/GraphBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/GraphFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/GraphService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/Multi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/Quadtree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/SimpleOrDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/Parcial2023_2C/TestEj2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/main/java/rotaciones" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/test/java/BST/BSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Segundo Parcial/src/main/java/ar/itba/edu/segundo_parcial/src/test/java/BST/BSTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,7 +77,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -40,8 +92,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/lulos/Desktop/EDA/tp3/EvaluadorExpresiones",
     "node.js.detected.package.eslint": "true",
@@ -57,7 +112,7 @@
       <recent name="C:\Users\lulos\Desktop\EDA\tp2\KMP\src\main\java\eda" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BorderStrings">
+  <component name="RunManager">
     <configuration name="BorderStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eda.BorderStrings" />
       <module name="KMP" />
@@ -97,13 +152,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.BorderStrings" />
-        <item itemvalue="Application.MorrisPratMain" />
-        <item itemvalue="Application.KMP" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,6 +163,7 @@
       <updated>1714745384494</updated>
       <workItem from="1714745385517" duration="1611000" />
       <workItem from="1714834304597" duration="1721000" />
+      <workItem from="1720013597694" duration="21000" />
     </task>
     <servers />
   </component>

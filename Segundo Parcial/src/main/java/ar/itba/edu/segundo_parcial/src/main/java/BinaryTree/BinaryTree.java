@@ -35,6 +35,23 @@ public class BinaryTree implements BinaryTreeService {
 		printRec(0, root);
 	}
 
+	public void removeLeaves(){
+		if(root.isLeaf()){
+			root = null;
+			return;
+		}
+		removeLeavesRec(root);
+	}
+
+	private void removeLeavesRec(Node current){
+		if(current == null) return;
+		if(current.left != null && current.left.isLeaf()) current.left = null;
+		if(current.right != null && current.right.isLeaf()) current.right = null;
+		removeLeavesRec(current.left);
+		removeLeavesRec(current.right);
+	}
+
+
 	public void buildTree() throws IllegalArgumentException, SecurityException {
 		 Queue<NodeHelper> pendingOps = new LinkedList<>();
 		 String token;
@@ -254,9 +271,17 @@ public class BinaryTree implements BinaryTreeService {
 	}
 	
 	public static void main(String[] args) throws IOException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
-		BinaryTree original = new BinaryTree("data0_3");
+		//BinaryTree original = new BinaryTree("data0_3");
 
-		original.toFile("hola.txt");
+		//original.toFile("hola.txt");
+		BinaryTree tree = new BinaryTree("dataParcial");
+		tree.printHierarchy();
+		System.out.println("--------------------------");
+		tree.removeLeaves();
+		tree.printHierarchy();
+		System.out.println("--------------------------");
+
+
 
 	}
 

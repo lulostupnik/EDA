@@ -2,18 +2,24 @@ package eda;
 
 public class Main {
     public static void main(String[] args) {
-        Qgram q = new Qgram(2);
-        q.printTokens("alale");
-        System.out.println();
-        q.printTokens("salesal");
-        System.out.println(q.similarity("salesal", "alale"));
+//        Qgram q = new Qgram(2);
+//        q.printTokens("alale");
+//        System.out.println();
+//        q.printTokens("salesal");
+//        System.out.println(q.similarity("salesal", "alale"));
+//
+//        QGramNash q2 = new QGramNash(2);
+//        q2.printTokens("alale");
+//        System.out.println();
+//        q2.printTokens("salesal");
+//        System.out.println(q2.similarity("salesal", "alale"));
 
-        QGramNash q2 = new QGramNash(2);
-        q2.printTokens("alale");
-        System.out.println();
-        q2.printTokens("salesal");
-        System.out.println(q2.similarity("salesal", "alale"));
 
+        QGramNash q3 = new QGramNash(3);
+        q3.printTokens("JHON");
+        System.out.println();
+        q3.printTokens("JON");
+        System.out.println(q3.similarity("JHON", "JON"));
 
 
 

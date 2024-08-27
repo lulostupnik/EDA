@@ -1,12 +1,8 @@
 package Parcial2023_2C;
 
 public class Quadtree {
-
-
     private QTNode root;
 
-
-    
     public Quadtree( Integer[][] matrix ){
         if (! checkDimIsSquareAndEven(matrix) )
             throw new RuntimeException("Invalid Dim");

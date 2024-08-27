@@ -5,8 +5,8 @@ import Parcial2023_2C.GraphService.*;
 
 abstract public class GraphFactory<V, E> {
 
-	public static <V, E> GraphService<V, E> create(GraphService.Multiplicity edgeMultiplicity, EdgeMode theEdgeMode,
-												   GraphService.SelfLoop acceptSelfLoops, Weight hasWeight, Storage theStorage) {
+	public static <V, E> GraphService<V, E> create(Multiplicity edgeMultiplicity, EdgeMode theEdgeMode,
+                                                   SelfLoop acceptSelfLoops, Weight hasWeight, Storage theStorage) {
 		
 		if (theStorage== Storage.SPARSE)  // manejando 8 tipos con 2 clases concretas
 			if (edgeMultiplicity== Multiplicity.SIMPLE)

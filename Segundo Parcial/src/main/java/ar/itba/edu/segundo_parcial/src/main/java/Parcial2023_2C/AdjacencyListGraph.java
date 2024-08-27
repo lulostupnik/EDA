@@ -10,7 +10,7 @@ public class AdjacencyListGraph<V, E> implements GraphService<V, E> {
     private boolean isWeighted;
     private Map<V, Collection<InternalEdge>> adjacencyList= new HashMap<>();
 
-    protected   Map<V,  Collection<AdjacencyListGraph<V, E>.InternalEdge>> getAdjacencyList() {
+    protected   Map<V,  Collection<InternalEdge>> getAdjacencyList() {
         return adjacencyList;
     }
     public Collection<V> getVertices() {

@@ -1,4 +1,4 @@
-package BST;
+package ar.itba.edu.segundo_parcial.src.test.java.BST;
 
 
 import org.junit.jupiter.api.BeforeEach;

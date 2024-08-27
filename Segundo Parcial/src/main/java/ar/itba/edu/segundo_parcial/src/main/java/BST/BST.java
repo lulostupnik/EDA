@@ -4,6 +4,7 @@ import BinaryTree.BinaryTree;
 import org.w3c.dom.Node;
 
 import java.util.*;
+import BST.BSTreeInterface;
 
 public class BST<T extends Comparable<T>> implements BSTreeInterface<T> {
 
@@ -14,7 +15,7 @@ public class BST<T extends Comparable<T>> implements BSTreeInterface<T> {
     @Override
     public void insert(T myData) {
         if (myData == null) throw new IllegalArgumentException();
-        insertRec(root, myData);
+        root = insertRec(root, myData);
     }
 
     private NodeTree<T> insertRec(NodeTree<T> current, T data) {
@@ -266,6 +267,31 @@ public class BST<T extends Comparable<T>> implements BSTreeInterface<T> {
         printRec(level + 1, current.getRight());
     }
 
+    /*
+    @Override
+    public void inOrder() {
+        inOrderRec(root);
+    }
+
+    private void inOrderRec(NodeTree<T> current) {
+        if (current == null) return;
+        inOrderRec(current.getLeft());
+        System.out.println(current.getData());
+        inOrderRec(current.getRight());
+    }
+     */
+
+    public void printInRange(T minValue, T maxValue){
+        printInRangeRec(root,minValue,maxValue);
+    }
+
+    private void printInRangeRec(NodeTree<T> current,T minValue, T maxValue){
+        if (current == null) return;
+        if(current.getData().compareTo(minValue) >= 0) printInRangeRec(current.getLeft(),minValue,maxValue);
+        if(current.getData().compareTo(minValue) >= 0 && current.getData().compareTo(maxValue) <= 0) System.out.println(current.getData());
+        if(current.getData().compareTo(maxValue) <= 0) printInRangeRec(current.getRight(),minValue,maxValue);
+    }
+
     private int getHeightRec(NodeTree<T> current) {
         int left = 0;
         int right = 0;
@@ -348,6 +374,21 @@ public class BST<T extends Comparable<T>> implements BSTreeInterface<T> {
 //        System.out.println("");
 //        System.out.println("Inorder");
 //        bst.inOrder();
+        BST<Integer> myTree = new BST<Integer>();
+        myTree.insertNode(80);
+        myTree.insert(40);
+        myTree.insert(150);
+        myTree.insert(20);
+        myTree.insert(70);
+        myTree.insert(200);
+        myTree.insert(50);
+        myTree.insert(170);
+        myTree.insert(60);
+        myTree.insert(170);
+        myTree.insert(190);
+
+        myTree.printInRange(35,170);
+        System.out.println("-------------------");
 
 
     }

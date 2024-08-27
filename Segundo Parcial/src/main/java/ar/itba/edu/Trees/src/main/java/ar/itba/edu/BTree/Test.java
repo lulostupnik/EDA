@@ -7,24 +7,12 @@ public class Test {
      */
 
     public static void main(String[] args) {
-       // Integer[] toAddArr = {130, 50, 20, 10, 30, 100, 70,120 ,180, 150, 140, 160,220,200,240};
-        // Integer[] toDeleteArr = {200,2230,50};
 
-       /* Integer[] toAddArr = {0, 8, 109, 220, 222, 241, 149, 107, 75, 248, 254, 140, 16, 66, 74, 21, 211, 47, 80,242};
-        Integer[] toRemoveArr = {66, 21, 109, 241, 149, 140, 211, 220 ,242};
-        addAndDelete(toAddArr, toRemoveArr, 1, REMOVE_PREFERENCE.LEFT_BROTHER_HIGHEST_LEXI);
-        addAndDelete(toAddArr, toRemoveArr, 1, REMOVE_PREFERENCE.RIGHT_BROTHER_LOWEST_LEXI);*/
-
-          Integer[] toAddArr = {10, 20, 30, 50, 70, 100, 150, 130, 120, 220, 180, 200, 240, 140, 160};
-          Integer[] toRemoveArr = {200,220,50};
+          Integer[] toAddArr = {220, 60, 170, 410, 660, 40, 50, 100, 130, 180, 190, 300, 340, 440, 540, 719, 800};
+          Integer[] toRemoveArr = {220};
           //addAndDelete(toAddArr, toRemoveArr, 1, REMOVE_PREFERENCE.LEFT_BROTHER_HIGHEST_LEXI);
-          addAndDelete(toAddArr, toRemoveArr, 1, REMOVE_PREFERENCE.RIGHT_BROTHER_LOWEST_LEXI);
+          addAndDelete(toAddArr, toRemoveArr, 4, REMOVE_PREFERENCE.RIGHT_BROTHER_LOWEST_LEXI);
 
-
-//          Integer[] toAddArr2 = {0, 8, 109, 220, 222, 241, 149, 107, 75, 248, 254, 140, 16, 66, 74, 21, 211, 47, 80,242};
-//          Integer[] toRemoveArr2 = {66};
-//          addAndDelete(toAddArr2, toRemoveArr2, 1, REMOVE_PREFERENCE.LEFT_BROTHER_HIGHEST_LEXI);
-//          addAndDelete(toAddArr2, toRemoveArr2, 1, REMOVE_PREFERENCE.RIGHT_BROTHER_LOWEST_LEXI);
 
     }
 

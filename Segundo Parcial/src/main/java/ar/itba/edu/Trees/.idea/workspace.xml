@@ -5,39 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d870d32-7d63-4df0-8f8e-8296aea0d922" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Parciales_Viejos/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Grafos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Grafos/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Grafos/src/main/java/core/AdjacencyListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Grafos/src/main/java/core/AdjacencyListGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Parciales_Viejos/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Parciales_Viejos/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Parciales_Viejos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/AdjacencyListGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/GraphFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/GraphService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/Multi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Parciales_Viejos/src/main/java/core/Quadtree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST$BSTInOrderIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST$BSTInOrderIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST$BTSByLevelIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST$BTSByLevelIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BST_/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$JavaCompatibleBTree2$BTree2Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$JavaCompatibleBTree2$BTree2Iterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$JavaCompatibleBTree2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$JavaCompatibleBTree2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$Node$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$Node$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$TreePrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree$TreePrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/BTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trees/ar/itba/edu/BTree/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/itba/edu/BST_/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/itba/edu/BST_/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/itba/edu/BST_/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/itba/edu/BST_/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ar/itba/edu/BTree/BTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/itba/edu/BTree/BTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ar/itba/edu/BTree/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ar/itba/edu/BTree/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../presentaciones/~$20-A .pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../segundo_parcial/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../segundo_parcial/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../segundo_parcial/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/AVL/AVL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/AVL/AVLTreeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/BST/BST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/BST/BSTreeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/BST/NodeTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/BST/NodeTreeInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/BinaryTree/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/BinaryTree/BinaryTreeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/BinaryTree/ParametrizedBinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/BinaryTree/ParametrizedBinaryTreeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/ClosedHashing/ClosedHashing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/ClosedHashing/IndexParametricService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/ExpTree/ExpTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/ExpTree/ExpressionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/ExpTree/IncorrectParenthesisException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/ExpTree/OperandException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Grafos/core/AdjacencyListGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Grafos/core/GraphFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Grafos/core/Messages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Grafos/core/Multi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Grafos/core/SimpleOrDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Grafos/core_service/GraphBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Grafos/core_service/GraphService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Grafos/use/EmptyEdgeProp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Grafos/use/WeightedEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/OpenHashing/OpenHashing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/AdjacencyListGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/EmptyEdgeProp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/GraphBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/GraphFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/GraphService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/Multi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/Quadtree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/SimpleOrDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/Parcial2023_2C/TestEj2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/main/java/rotaciones" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../segundo_parcial/src/test/java/BST/BSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../segundo_parcial/src/test/java/BST/BSTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +219,8 @@
       <workItem from="1718717115209" duration="5859000" />
       <workItem from="1718725606258" duration="995000" />
       <workItem from="1718731168138" duration="2950000" />
+      <workItem from="1718749331155" duration="112000" />
+      <workItem from="1718802627642" duration="766000" />
     </task>
     <servers />
   </component>

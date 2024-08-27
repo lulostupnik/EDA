@@ -6,13 +6,13 @@ public class TestEj2 {
     public static void main(String[] args) {
         GraphService<Character, EmptyEdgeProp> undirectedMultipleLoopNoWeight;
        // GraphService<Character, EmptyEdgeProp> undirectedSimpleLoopNoWeight;
-        /*undirectedSimpleLoopNoWeight = new GraphBuilder<Character, EmptyEdgeProp>()
+        /* undirectedSimpleLoopNoWeight = new GraphBuilder<Character, EmptyEdgeProp>()
                 .withStorage(GraphService.Storage.SPARSE)
                 .withAcceptSelfLoop(GraphService.SelfLoop.YES)
                 .withAcceptWeight(GraphService.Weight.NO)
                 .withDirected(GraphService.EdgeMode.UNDIRECTED)
                 .withMultiplicity(GraphService.Multiplicity.SIMPLE)
-                .build();*/
+                .build(); */
         undirectedMultipleLoopNoWeight = new GraphBuilder<Character, EmptyEdgeProp>()
                 .withStorage(GraphService.Storage.SPARSE)
                 .withAcceptSelfLoop(GraphService.SelfLoop.YES)
